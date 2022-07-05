@@ -145,6 +145,7 @@ color: white;
   
   .card {
     border-style: solid;
+    border-color: black;
     border-width: 3px;
     padding: 10px;
     float: left;
@@ -170,6 +171,7 @@ color: white;
   .card-2 {
     border-style: solid;
     border-width: 3px;
+    border-color: black;
     padding: 10px;
     float: left;
     width: 50%;
@@ -195,12 +197,22 @@ color: white;
     max-height: 40%;
   }
 
-  /* TODO: Use media query to change the width of the cards so they split into two columns at 992px or smaller*/
   @media screen and (max-width: 992px) {
-  .card
-  width: 50%;
+    .card
+    width: 50%;
   }
-  /* TODO: Use media query to change the width of the cards so they are stacked on top of each other at 768px or smaller */
+
   @media screen and (max-width: 768px) {
     .card
     width: 100%;
+  }
+   
+  @media screen and (max-width: 992px) {
+      .card-2
+      width: 50%;
+      }
+    
+  @media screen and (max-width: 768px) {
+      .card-2
+      width: 100%;
+  }
