@@ -1,0 +1,4 @@
+This is the start of my professional portfolio that will eventually contain snapshots of my future work and applications. Currently, it features a basic paragraph talking about my personal information, my first HTML code, and contact information. I only have the HTML work I have done, since I am still learning. As practice, I included my Soundcloud profile and an image that links my portfolio page to my Soundcloud music. I did add navigation buttons at the top of the page that are linked to their corresponding section. Also, in the "My Work" section, each project is in its on box model on CSS. 
+[Screenshot](./images/portscreen1.jpg)
+[Screenshot](./images/portscreen2.jpg)
+[Screenshot](./images/portscreen3.jpg)

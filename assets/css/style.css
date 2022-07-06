@@ -71,6 +71,7 @@ p {
     margin-left: 25px;
 }
 
+/* Sections Created */
 .content {
     width: 97%;
     display: inline-block;
@@ -126,23 +127,20 @@ color: white;
 .footer h2 {
     font-size: 20px;
 }
-
-* {
+{
     box-sizing: border-box;
   }
-  
   body {
     font-family: Arial;
     margin: 0;
   }
-  
   header {
     padding: 60px;
     text-align: center;
     background: #13293d;
     color: #fff;
   }
-  
+  /* About Me Boxes */
   .card {
     border-style: solid;
     border-color: black;
@@ -152,22 +150,19 @@ color: white;
     width: 50%;
     height: 92%;
   }
-   
-  .card header {
+   .card header {
     padding: 20px;
     margin-bottom: 10px;
+    background-color: slategray;
   }
-  
   .card p {
     text-align: center;
   }
-  
   .card img {
     margin-top: 10px;
     width: 100%;
     max-height: 100%;
   }
-  
   .card-2 {
     border-style: solid;
     border-width: 3px;
@@ -176,43 +171,35 @@ color: white;
     float: left;
     width: 50%;
     height: 92%;
-  }
-   
+  } 
   .card-2 header {
     padding: 20px;
+    background-color: slategray;
     margin-bottom: 10px;
   }
-  
   .card-2 p {
     float: right;
     text-align: left;
-   font-size: 20px;
-    
+   font-size: 20px;  
   }
-  
   .card-2 img {
     margin-top: 5px;
     margin-bottom: 10px;
     width: 35%;
     max-height: 40%;
   }
-
+/* Media Queries */
   @media screen and (max-width: 992px) {
-    .card
-    width: 50%;
+    .card,
+    .card-2,
+    .content,
+    .cover-picture
+    {width: 50%;}
   }
-
   @media screen and (max-width: 768px) {
-    .card
-    width: 100%;
-  }
-   
-  @media screen and (max-width: 992px) {
-      .card-2
-      width: 50%;
-      }
-    
-  @media screen and (max-width: 768px) {
-      .card-2
-      width: 100%;
+    .card,
+    .card-2,
+    .content,
+    .cover-picture
+    {width: 100%;} 
   }
